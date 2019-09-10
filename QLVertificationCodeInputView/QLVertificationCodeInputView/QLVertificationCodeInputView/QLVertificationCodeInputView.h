@@ -38,7 +38,7 @@ typedef void(^textDidChangeBlock)(UITextField *textField);
 @property (nonatomic, strong) IBInspectable UIColor   *fillColor;
 
 /// 有值时绘制区域填充颜色
-@property (nonatomic, strong) UIColor   *h_fillColor;
+@property (nonatomic, strong) IBInspectable UIColor   *h_fillColor;
 
 /// 输入框类型
 @property (nonatomic, assign) InpuViewType inputType;
